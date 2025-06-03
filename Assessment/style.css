@@ -1,0 +1,107 @@
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .calculator {
+            position: absolute;
+            width: 400px;
+            background: #242530;
+            height: 367px;
+            left: calc(50% - 400px/2);
+            top: calc(50% - 367px/2 - 28px);
+        }
+    
+        .display {
+            position: absolute;
+            width: 350px;
+            height: 70px;
+            left: 25px;
+            top: 25px;
+            background: #3A3F77;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding-right: 20px;
+            box-sizing: border-box;
+        }
+
+        .display-text {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 39px;
+            color: #FFFFFF;
+        }
+
+        .btn {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .btn-number {
+            width: 65px;
+            height: 45px;
+            background: #404258;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 35px;
+            color: #FFFFFF;
+            font-size: 24px;
+        }
+
+        .btn-operator {
+            width: 45px;
+            height: 45px;
+            background: #F49D1A;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 50%;
+            color: #FFFFFF;
+            font-size: 24px;
+        }
+
+        .btn-equals {
+            width: 104.83px;
+            height: 46.8px;
+            background: #B2B2B2;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 100px;
+            color: #000000;
+            font-size: 28px;
+        }
+
+        /* Number buttons positioning */
+        .btn-1 { left: 29px; top: 117px; }
+        .btn-2 { left: 117px; top: 117px; }
+        .btn-3 { left: 205px; top: 117px; }
+        .btn-4 { left: 29px; top: 177px; }
+        .btn-5 { left: 117px; top: 177px; }
+        .btn-6 { left: 205px; top: 177px; }
+        .btn-7 { left: 29px; top: 237px; }
+        .btn-8 { left: 117px; top: 237px; }
+        .btn-9 { left: 205px; top: 237px; }
+        .btn-0 { left: 117px; top: 297px; }
+        .btn-decimal { left: 29px; top: 297px; }
+        .btn-delete{left:205px; top:297px;}
+
+        /* Operator buttons positioning */
+        .btn-divide { left: 330px; top: 117px; }
+        .btn-multiply { left: 273px; top: 117px; }
+        .btn-add { left: 273px; top: 177px; }
+        .btn-subtract { left: 330px; top: 177px; }
+        .btn-power { left: 330px; top: 237px; }
+        .btn-percent { left: 273px; top: 237px; }
+        .btn-equals { left: 271px; top: 297px; }
+    
