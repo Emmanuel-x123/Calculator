@@ -16,6 +16,7 @@
             height: 367px;
             left: calc(50% - 400px/2);
             top: calc(50% - 367px/2 - 28px);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
     
         .display {
@@ -83,25 +84,25 @@
         }
 
         /* Number buttons positioning */
-        .btn-1 { left: 29px; top: 117px; }
-        .btn-2 { left: 117px; top: 117px; }
-        .btn-3 { left: 205px; top: 117px; }
-        .btn-4 { left: 29px; top: 177px; }
-        .btn-5 { left: 117px; top: 177px; }
-        .btn-6 { left: 205px; top: 177px; }
-        .btn-7 { left: 29px; top: 237px; }
-        .btn-8 { left: 117px; top: 237px; }
-        .btn-9 { left: 205px; top: 237px; }
-        .btn-0 { left: 117px; top: 297px; }
-        .btn-decimal { left: 29px; top: 297px; }
-        .btn-delete{left:205px; top:297px;}
+        .btn-1 { left: 14px; top: 117px; }
+        .btn-2 { left: 100px; top: 117px; }
+        .btn-3 { left: 178px; top: 117px; }
+        .btn-4 { left: 17px; top: 177px; }
+        .btn-5 { left: 100px; top: 177px; }
+        .btn-6 { left: 179px; top: 177px; }
+        .btn-7 { left: 21px; top: 237px; }
+        .btn-8 { left: 98px; top: 237px; }
+        .btn-9 { left: 179px; top: 237px; }
+        .btn-0 { left: 100px; top: 297px; }
+        .btn-decimal { left: 21px; top: 297px; }
+        .btn-delete{left:179px; top:297px;}
 
         /* Operator buttons positioning */
-        .btn-divide { left: 330px; top: 117px; }
-        .btn-multiply { left: 273px; top: 117px; }
-        .btn-add { left: 273px; top: 177px; }
-        .btn-subtract { left: 330px; top: 177px; }
-        .btn-power { left: 330px; top: 237px; }
-        .btn-percent { left: 273px; top: 237px; }
-        .btn-equals { left: 271px; top: 297px; }
+        .btn-divide { left: 326px; top: 117px; }
+        .btn-multiply { left: 269px; top: 117px; }
+        .btn-add { left: 268px; top: 177px; }
+        .btn-subtract { left: 325px; top: 177px; }
+        .btn-clear { left: 326px; top: 237px; }
+        .btn-percent { left: 268px; top: 237px; }
+        .btn-equals { left: 268px; top: 297px; }
     
