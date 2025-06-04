@@ -11,7 +11,8 @@
     <div class="calculator">
         
        <div class="display">
-            <div class="display-text">0</div>
+            <div class="previous-operand"></div>
+            <div class="current-operand">0</div>
         </div>
         
         <!-- Number buttons -->
@@ -39,5 +40,16 @@
         <div class="btn btn-operator btn-percent">%</div>
         <div class="btn btn-equals">＝</div>
     </div>
+
+        <div class="history" aria-label="Calculation history">
+            <h3>Calculation History</h3>
+            <ul id="history-list"></ul>
+            <button id="clear-history" class="btn-history" aria-label="Clear history">
+                <i class="fas fa-trash-alt"></i> Clear History
+            </button>
+        </div>
+
+  
+    <script src="script.js"></script>
 </body>
 </html>
